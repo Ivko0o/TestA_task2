@@ -15,8 +15,11 @@ int main() {
 	int p = 3;			//These are the first 2 prime numbers
 	int count = 0;
 
+
+	cout << "This program will show which Prime numbers are 'Twin' numbers - e.g (q + 2 = p)" << endl << endl;
 	cout << "Enter a positive number between 1 and 100,000 for number of iterations" << endl;
 	cin >> n;
+	cout << endl;
 
 	while (n < 1 || n > 100000) {
 		cout << "Number has to be between 1 and 100,000" << endl;
